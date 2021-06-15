@@ -8,13 +8,12 @@ Know more: http://www.alkemy.org/
 LinkedIn: https://www.linkedin.com/company/alkemy2020/
 ```
 
-
 Install environment
 
 ```commandline
-py -m venv env
+python -m venv env
 .\env\Scripts\activate
-py -m pip install requests
+pip install -r requirements.txt
 ```
 
 Create database and first user
